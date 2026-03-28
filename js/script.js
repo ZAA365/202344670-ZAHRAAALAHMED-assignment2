@@ -48,8 +48,7 @@ greetBtn.addEventListener("click", () => {
     greeting = "Good evening";
   }
 
-greetingMessage.textContent = `${greeting}, ${name}! Welcome to my portfolio 💜`;
-greetingMessage.classList.add("show");
+ greetingMessage.textContent = `${greeting}, ${name}! Welcome to my portfolio 💜`; greetingMessage.classList.add("show");
   localStorage.setItem("username", name);
 });
 
