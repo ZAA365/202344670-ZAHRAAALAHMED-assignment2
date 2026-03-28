@@ -11,30 +11,30 @@ The website showcases my background, projects, and contact information, while ad
 
 ## Features
 
-### 🔹 Dynamic Greeting Feature
+### Dynamic Greeting Feature
 - Users can enter their name and receive a personalized greeting
 - Greeting changes based on time of day (morning/afternoon/evening)
 - Displays instantly without reloading the page
 
-### 🔹 Data Handling (localStorage)
+### Data Handling (localStorage)
 - Saves user name and displays it again on return
 - Saves dark/light mode preference
 
-### 🔹 Dark/Light Mode Toggle
+### Dark/Light Mode Toggle
 - Users can switch between themes
 - Theme preference is saved automatically
 
-### 🔹 User Feedback
+### User Feedback
 - Error message shown if input field is empty
 - Greeting message shown when input is valid
 - Returning users see a welcome-back message
 
-### 🔹 Animations & Transitions
+### Animations & Transitions
 - Smooth transitions for theme switching
 - Hover effects on buttons and navigation
 - Fade-in effect for greeting message
 
-### 🔹 Responsive Design
+### Responsive Design
 - Works on desktop, tablet, and mobile devices
 
 ---
