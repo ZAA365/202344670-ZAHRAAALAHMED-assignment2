@@ -286,7 +286,8 @@ textarea:focus {
     box-shadow: 0 0 0 4px rgba(163, 0, 204, 0.1); /* Subtle purble ring */
 }
 
-input[type="submit"] {
+input[type="submit"],
+#greet-btn {
     background: #8100cc;
     color: white;
     border: none;
@@ -299,7 +300,8 @@ input[type="submit"] {
     margin-top: 20px;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+#greet-btn:hover {
     background: #a310f8; /* Lighter purble on hover */
     transform: scale(1.02);
 }
@@ -449,14 +451,13 @@ body.dark-mode span {
     .navigation a {
         margin: 5px 0;
     }
+      /* Greeting animation */
+    #greeting-message {
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
-  /* Greeting animation */
- #greeting-message {
-     opacity: 0;
-     transition: opacity 0.5s ease;
- }
 
- #greeting-message.show {
-     opacity: 1;
- }
-
+    #greeting-message.show {
+        opacity: 1;
+    }
+}
