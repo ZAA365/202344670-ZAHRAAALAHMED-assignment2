@@ -45,11 +45,13 @@ The website showcases my background, projects, and contact information, while ad
 2. **Ensure folder structure is correct:**
 assignment-2/
 ├── index.html
-├── css/styles.css
-├── js/script.js
-├── assets/images/
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
 └── docs/
-
 3. **Open the website**
 - Double-click `index.html` OR open it in any browser
 
