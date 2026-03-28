@@ -450,13 +450,13 @@ body.dark-mode span {
         margin: 5px 0;
     }
 }
-/* Greeting animation */
-#greeting-message {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
+  /* Greeting animation */
+ #greeting-message {
+     opacity: 0;
+     transition: opacity 0.5s ease;
+ }
 
-#greeting-message.show {
-    opacity: 1;
-}
+ #greeting-message.show {
+     opacity: 1;
+ }
 
