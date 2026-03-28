@@ -1,23 +1,23 @@
 // DARK MODE TOGGLE SCRIPT
 // Handles switching between light and dark modes
 
-const btn = document.getElementById("theme-toggle");
+  const btn = document.getElementById("theme-toggle");
 
-// download the saved state of the theme
-if (localStorage.getItem("theme") === "dark") {
-  document.body.classList.add("dark-mode");
-}
-
-btn.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-
-  // Save the theme state
-  if (document.body.classList.contains("dark-mode")) {
-    localStorage.setItem("theme", "dark");
-  } else {
-    localStorage.setItem("theme", "light");
+  // download the saved state of the theme
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
   }
-});
+
+  btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    // Save the theme state
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("theme", "dark");
+    } else {
+      localStorage.setItem("theme", "light");
+    }
+  });
 
 // ===== GREETING FEATURE =====
 
